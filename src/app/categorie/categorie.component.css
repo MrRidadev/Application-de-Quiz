@@ -1,0 +1,256 @@
+
+        body {
+            background-color: #2e0a4f;
+            background-image: linear-gradient(45deg, #2e0a4f 0%, #3b0d65 100%);
+            color: white;
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            position: relative;
+        }
+        #span{
+            text-decoration: none;
+        }
+
+        .background-pattern {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30,30 C35,30 35,25 40,25 C45,25 45,30 50,30 C55,30 55,25 60,25 C65,25 65,30 70,30' stroke='%23440080' fill='none' opacity='0.2' stroke-width='2'/%3E%3C/svg%3E");
+            opacity: 0.3;
+            z-index: 0;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        .content-wrapper {
+            position: relative;
+            z-index: 1;
+            padding: 20px;
+        }
+
+        .main-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 1.3rem;
+            margin-bottom: 30px;
+        }
+
+        .category-grid {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .category-card {
+            background-color: #3b0d65;
+            border-radius: 15px;
+            border: 2px solid #541690;
+            padding: 10px;
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+            margin-bottom: 20px;
+            height: 100%;
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .category-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 10px;
+            margin: 10px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .category-icon img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .category-name {
+            color: white;
+            font-size: 1.1rem;
+            margin-top: 5px;
+        }
+
+        .close-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: transparent;
+            border: 2px solid white;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .all-categories {
+            background-color: #a17dc3;
+        }
+
+        .geography {
+            background-color: #1a8fe3;
+        }
+
+        .entertainment {
+            background-color: #e91e94;
+        }
+
+        .history {
+            background-color: #ffa600;
+        }
+
+        .art {
+            background-color: #ff4538;
+        }
+
+        .science {
+            background-color: #00d26a;
+        }
+
+        .sports {
+            background-color: #ff7700;
+        }
+
+        .mini-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.geography-mini {
+    background-color: #1a8fe3;
+}
+
+.entertainment-mini {
+    background-color: #e91e94;
+}
+
+.history-mini {
+    background-color: #ffa600;
+}
+
+.art-mini {
+    background-color: #ff4538;
+}
+
+.science-mini {
+    background-color: #00d26a;
+}
+
+.sports-mini {
+    background-color: #ff7700;
+}
+.category-card {
+    background-color: #3b0d65;
+    border-radius: 15px;
+    border: 2px solid #541690;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.category-icon {
+    background-color: #a17dc3;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+.icon-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.icon-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.icon-cell svg {
+    width: 24px;
+    height: 24px;
+}
+
+.geography-icon {
+    background-color: #1a8fe3;
+}
+
+.entertainment-icon {
+    background-color: #e91e94;
+}
+
+.history-icon {
+    background-color: #ffa600;
+}
+
+.art-icon {
+    background-color: #ff4538;
+}
+
+.science-icon {
+    background-color: #00d26a;
+    grid-column: span 2;
+    width: 45%;
+    height: 45%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.science-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.category-name {
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    font-weight: 500;
+}
+    
