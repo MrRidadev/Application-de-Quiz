@@ -1,0 +1,128 @@
+body {
+    background-color: #2e0a4f;
+    background-image: linear-gradient(to bottom, #2e0a4f 0%, #240a3d 100%);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.top-bar {
+    background-color: #240a3d;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #541690;
+}
+
+.progress-bar-container {
+    height: 5px;
+    background-color: #541690;
+    width: 100%;
+    position: relative;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background-color: #a17dc3;
+    width: 10%;
+    /* 1/10 progression */
+}
+
+.question-counter {
+    background-color: #a17dc3;
+    border-radius: 12px;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.question-counter .icons {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.question-counter .icons img {
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+}
+
+.score {
+    background-color: #3b0d65;
+    border-radius: 12px;
+    padding: 8px 15px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    min-width: 100px;
+    text-align: center;
+}
+
+.timer {
+    background-color: #3b0d65;
+    border-radius: 12px;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.timer-icon {
+    margin-right: 8px;
+}
+
+.pause-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.question-container {
+    padding: 50px 20px;
+    text-align: center;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.question {
+    font-size: 1.8rem;
+    font-weight: 500;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.4;
+}
+
+.answers-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.answer-button {
+    background-color: #3b0d65;
+    border: 2px solid #541690;
+    border-radius: 15px;
+    color: white;
+    font-size: 1.3rem;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.answer-button:hover {
+    background-color: #541690;
+    transform: translateY(-2px);
+}
