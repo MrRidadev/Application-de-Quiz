@@ -1,0 +1,18 @@
+body.bg-dark-purple {
+    background-color: #3c0064;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .btn-purple {
+    background-color: #8000ff;
+    border: none;
+  }
+  
+  .bg-purple {
+    background-color: #6f42c1;
+  }
+  
+  .btn-purple:hover {
+    background-color: #6a00cc;
+  }
+  
