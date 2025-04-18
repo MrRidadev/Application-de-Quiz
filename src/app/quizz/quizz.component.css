@@ -126,3 +126,13 @@ body {
     background-color: #541690;
     transform: translateY(-2px);
 }
+.answer-button.selected-correct {
+    background-color: #198754;
+    color: white;
+  }
+  
+  .answer-button.selected-wrong {
+    background-color: #dc3545;
+    color: white;
+  }
+  

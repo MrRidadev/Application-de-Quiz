@@ -10,6 +10,7 @@ import { QuizzComponent } from "./quizz/quizz.component";
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+
 export class AppComponent {
   title = 'Application_de_Quiz';
 }
